@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Inicia Sesion</title>
+</head>
+
+<body>
+
+    <div class="login col-md-6 mx-auto mt-5">
+        <h1>Inicia Sesión</h1>
+        <form action="" method="post" id="login">
+            <div class="form-group">
+                <label for="usuario">Nombre de Usuario</label>
+                <input type="text" class="form-control" id="usuario" name="usuario"
+                    placeholder="Ingresa tu nombre de usuario" >
+                
+
+            </div>
+            <div class="form-group">
+                <label for="contrasenia">Contraseña</label>
+                <input type="password" class="form-control" id="contrasenia" name="contrasenia"
+                    placeholder="Ingresa tu contraseña">
+                    
+                   
+                <a href="forgotpass.html" class="d-block mt-2">¿Has olvidado la contraseña?</a>
+            </div>
+
+            <div id="alertContainer"></div>
+            <button type="submit" class="btn btn-outline-info mt-3">Iniciar Sesión</button>
+        </form>
+    </div>
+
+    <footer class="mt-5">
+        <div class="card">
+            <div class="card-header text-center">
+                COPISTAT
+            </div>
+            <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a title="Contacto" href="contacto.html">Contacto</a></li>
+                        <li class="list-group-item"><a title="Implementalo en tu negocio" href="tuNegocio.html">Implementalo en tu negocio</a></li>
+                        <li class="list-group-item">GitHub</li>
+                        <li class="list-group-item">Sobre Nosotros</li>
+                    </ul>
+                    <footer class="blockquote-footer mt-2">©copistat 2024 <cite title="Source Title"> - Desarrollada por
+                            Aitor Cobo</cite>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="acceso.js"></script>
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shP4N8/JKMYe2W+GXha/ffOus7qB+6qvfkaD4"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

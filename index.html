@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Copistat</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1 class="mt-5 text-center">Sube tu documento</h1>
+        <p class="fs-4 fw-bold text-center">Selecciona un documento desde tu dispositivo para imprimir.</p>
+
+        <form id="uploadForm">
+            <div class="form-group">
+                <div id="alertContainer"></div>
+
+                <input type="file" class="form-control-file" id="documento">
+            </div>
+            <button type="submit" class="btn btn-primary">Subir documento</button>
+        </form>
+
+        <div class="alert alert-info mt-4 text-center" role="alert">
+            Para mayor seguridad y privacidad, los documentos subidos se eliminan automáticamente del servidor después
+            de tres minutos desde su carga.
+        </div>
+    </div>
+
+    <footer class="mt-5">
+        <div class="card">
+            <div class="card-header text-center">
+                COPISTAT
+            </div>
+            <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a title="Contacto" href="contacto.html">Contacto</a></li>
+                        <li class="list-group-item"><a title="Implementalo en tu negocio" href="tuNegocio.html">Implementalo en tu negocio</a></li>
+                        <li class="list-group-item">GitHub</li>
+                        <li class="list-group-item">Sobre Nosotros</li>
+                    </ul>
+                    <footer class="blockquote-footer mt-2">©copistat 2024 <cite title="Source Title"> - Desarrollada por
+                            Aitor Cobo</cite>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shP4N8/JKMYe2W+GXha/ffOus7qB+6qvfkaD4"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
